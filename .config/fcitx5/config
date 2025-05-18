@@ -10,8 +10,6 @@ EnumerateSkipFirst=False
 
 [Hotkey/TriggerKeys]
 0=Control+space
-1=Zenkaku_Hankaku
-2=Hangul
 
 [Hotkey/AltTriggerKeys]
 0=Shift_L
@@ -47,7 +45,7 @@ EnumerateSkipFirst=False
 # Active By Default
 ActiveByDefault=False
 # Share Input State
-ShareInputState=Program
+ShareInputState=No
 # Show preedit in application
 PreeditEnabledByDefault=True
 # Show Input Method Information when switch input method
@@ -66,8 +64,9 @@ OverrideXkbOption=False
 CustomXkbOption=
 # Force Enabled Addons
 EnabledAddons=
-# Force Disabled Addons
-DisabledAddons=
 # Preload input method to be used by default
 PreloadInputMethod=True
+
+[Behavior/DisabledAddons]
+0=chttrans
 
