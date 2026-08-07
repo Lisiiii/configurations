@@ -37,7 +37,13 @@ source ~/.zshrc
 source /opt/ros/humble/setup.zsh
 eval "$(register-python-argcomplete3 ros2)"
 eval "$(register-python-argcomplete3 colcon)"
+
+sed -i 's/plugins=(git)/plugins=(git zsh-syntax-highlighting zsh-autosuggestions)/g' ~/.zshrc
+git clone https://gitee.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting && git clone https://gitee.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+rm ./zsh-install.sh
+
 ```
+
 
 ## docker
 run docker without sudo
