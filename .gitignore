@@ -1,24 +1,24 @@
-*
-!*/
+# *
+# !*/
 
-!.config/bspwm/**
-!.config/sxhkd/**
-!.config/polybar/**
-!.config/rofi/**
-!.config/picom/**
-!.config/neofetch/**
-!.config/kitty/**
-!.config/fcitx5/**
-!.config/gtk-3.0/**
+# !.config/bspwm/**
+# !.config/sxhkd/**
+# !.config/polybar/**
+# !.config/rofi/**
+# !.config/picom/**
+# !.config/neofetch/**
+# !.config/kitty/**
+# !.config/fcitx5/**
+# !.config/gtk-3.0/**
 
-!.local/share/rofi/**
+# !.local/share/rofi/**
 
-!script/**
-!config/**
+# !script/**
+# !config/**
 
-!.icons/**
-!.app/**
+# !.icons/**
+# !.app/**
 
-!.gitignore
-!.zshrc
-!.xsession
+# !.gitignore
+# !.zshrc
+# !.xsession
