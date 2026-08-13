@@ -36,7 +36,7 @@ set -e
 # Default settings
 ZSH=${ZSH:-~/.oh-my-zsh}
 REPO=${REPO:-mirrors/oh-my-zsh}
-REMOTE=${REMOTE:-https://gitee.com/${REPO}.git}
+REMOTE=${REMOTE:-https://GitHub.com/${REPO}.git}
 BRANCH=${BRANCH:-master}
 
 # Other options
